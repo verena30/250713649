@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Pendaftaran Kegiatan</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div id="banner">
+        <h1>FTI Beyond Classroom</h1>
+        <h3>Learning Beyond Limits</h3>
+    </div>
+
+    <div id="isi">
+        <form action="" method="post" enctype="multipart/form-data">
+
+            <h3>
+                Informasi Peserta <br />
+                <i>Participant Information</i>
+            </h3>
+            <table>
+                <tr>
+                    <td id="keterangan">
+                        <label for="nama">
+                            <strong>Nama Peserta</strong><br />
+                            <i>Full Name</i>
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text" id="nama" name="nama" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="nim">
+                            <strong>Nomor Pokok Mahasiswa</strong><br />
+                            <i>Student ID Number</i>
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text" id="nim" name="nim" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="prodi">
+                            <strong>Asal Program Studi</strong><br />
+                            <i>Study Program</i>
+                        </label>
+                    </td>
+                    <td>
+                        <select id="prodi" name="prodi">
+                            <option>Computer Science</option>
+                            <option>Information Syatem</option>
+                            <option>Industrial Engineering</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <strong>Jenis Kelamin</strong><br />
+                        <i>Gender</i>
+                    </td>
+                    <td>
+                        <input type="radio" id="laki" name="jk"
+                               value="Laki-laki" />
+                        <label for="laki">
+                            Laki-laki <i>(Male)</i>
+                        </label>
+
+                        <input type="radio" id="perempuan" name="jk"
+                               value="Perempuan" />
+                        <label for="perempuan">
+                            Perempuan <i>(Female)</i>
+                        </label>
+                    </td>
+                </tr>
+            </table>
+
+            <h3>
+                Informasi Kegiatan <br />
+                <i>Event Information</i>
+            </h3>
+            <table>
+                <tr>
+                    <td id="keterangan">
+                        <strong>Kegiatan yang Dipilih</strong><br />
+                        <i>Selected Event</i>
+                    </td>
+                    <td>
+                        <input type="radio" id="seminar"
+                               name="kegiatan" value="Seminar" />
+                        <label for="seminar">Seminar</label>
+
+                        <input type="radio" id="pelatihan"
+                               name="kegiatan" value="Pelatihan" />
+                        <label for="pelatihan">
+                            Pelatihan <i>(Training)</i>
+                        </label>
+
+                        <input type="radio" id="diskusi"
+                               name="kegiatan" value="Diskusi" />
+                        <label for="diskusi">
+                            Diskusi <i>(Discussion)</i>
+                        </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <strong>Topik yang Diminati</strong><br />
+                        <i>Areas of Interest</i>
+                    </td>
+                    <td>
+                        <p>
+                            <input type="checkbox" id="teknologi"
+                                   name="minat" value="Teknologi" />
+                            <label for="teknologi">
+                                Teknologi <i>(Technology)</i>
+                            </label>
+                        </p>
+
+                        <p>
+                            <input type="checkbox" id="organisasi"
+                                   name="minat" value="Organisasi" />
+                            <label for="organisasi">
+                                Organisasi <i>(Organization)</i>
+                            </label>
+                        </p>
+
+                        <p>
+                            <input type="checkbox" id="karier"
+                                   name="minat" value="Karier" />
+                            <label for="karier">
+                                Karier <i>(Career)</i>
+                            </label>
+                        </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="waktu">
+                            <strong>Jadwal yang Diinginkan</strong><br />
+                            <i>Preferred Time</i>
+                        </label>
+                    </td>
+                    <td>
+                        <select id="waktu" name="waktu">
+                            <option>09.00 AM</option>
+                            <option>01.00 PM</option>
+                            <option>05.00 PM</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
+            <h3>
+                Kelengkapan Registrasi<br />
+                <i>Registration Requirements</i>
+            </h3>
+            <table>
+                <tr>
+                    <td id="keterangan">
+                        <label for="harapan">
+                            <strong>Tujuan Mengikuti Kegiatan</strong><br />
+                            <i>Purpose of Participation</i>
+                        </label>
+                    </td>
+                    <td>
+                        <textarea id="harapan" name="harapan"
+                                  rows="7" cols="30"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="bukti">
+                            <strong>Unggah Bukti Pembayaran</strong><br />
+                            <i>Upload Payment Proof</i>
+                        </label>
+                    </td>
+                    <td>
+                        <input type="file" id="bukti" name="bukti" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" id="bagian-kirim">
+                        <p id="catatan">
+                            Please make sure all information is filled out correctly
+                            before submitting your registration.
+                        </p>
+                        <input type="submit" id="daftar" name="kirim"
+                               value="Submit Registration" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

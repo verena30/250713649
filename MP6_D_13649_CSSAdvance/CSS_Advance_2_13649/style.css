@@ -1,0 +1,109 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eeeeee;
+    color: #333333;
+    margin: 0;
+}
+
+#banner {
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 25px 20px 30px;
+}
+
+#banner h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#banner h3 {
+    margin: 8px 0 0 0;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#isi {
+    width: 80%;
+    margin: 25px auto;
+    background-color: white;
+    padding: 20px;
+}
+
+#isi h3 {
+    color: #edae00;
+    margin: 25px 0 10px 0;
+}
+
+#isi h3 i {
+    font-weight: normal;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+td {
+    border: 1px solid #eae7e7;
+    padding: 12px;
+    vertical-align: middle;
+}
+
+#keterangan {
+    width: 32%;
+}
+
+strong {
+    color: #175b75;
+}
+
+#isi i {
+    color: #999999;
+    font-style: italic;
+    font-size: small;
+}
+
+input, select, textarea {
+    font-family: inherit;
+}
+
+input[type="text"], select {
+    border: 1px solid #999999;
+    border-radius: 25px;
+    padding: 8px 12px;
+}
+
+input[type="text"] {
+    width: 85%;
+}
+
+textarea {
+    border: 1px solid #999999;
+    border-radius: 15px;
+    padding: 8px;
+    width: 85%;
+}
+
+#bagian-kirim {
+    text-align: center;
+}
+
+#catatan {
+    font-style: italic;
+    font-size: 13px;
+    color: gray;
+}
+
+#daftar {
+    background-color: #175b75;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+}
